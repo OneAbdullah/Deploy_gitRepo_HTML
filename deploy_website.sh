@@ -47,11 +47,12 @@ while true; do
     check_success
     httpd_service_status=$(systemctl is-active httpd)
 
-    # Clone the repository from GitHub
-    echo "Cloning the repository from GitHub..."
-    wget -q -N "$repo_url"
-    check_success
-    repo_cloned=true
+  # Clone the repository from GitHub
+echo "Cloning the repository from GitHub..."
+git clone "$repo_url" cloned-repo
+check_success
+repo_cloned=true
+cd cloned-repo
 
     # Check for .htm or .html files
     echo "Checking for .htm or .html files..."
