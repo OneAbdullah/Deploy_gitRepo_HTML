@@ -6,7 +6,7 @@ This Bash script is designed to automate the deployment of a website using the A
 
 2. **Enable and Start Apache2**: It enables and starts the Apache2 service to make the website accessible via a web browser.
 
-3. **Clone the Repository**: The script clones the specified GitHub repository using `wget`.
+3. **Clone the Repository**: The script clones the specified GitHub repository using `git`.
 
 4. **Check for .htm or .html Files**: It searches for `.htm` or `.html` files in the cloned repository and, if found, allows you to select one to serve as the website's index file.
 
