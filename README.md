@@ -18,25 +18,20 @@ This Bash script is designed to automate the deployment of a website using the A
 
 1. Save the script to a file, e.g., `deploy_website.sh`.
 
-2. Make the script executable by running:
+
+
+2. Execute the script:
 
    ```bash
-   chmod +x deploy_website.sh
+   bash /deploy_website.sh
    ```
 
-3. Execute the script:
-
-   ```bash
-   ./deploy_website.sh
-   ```
-
-4. Follow the interactive prompts:
+3. Follow the interactive prompts:
    - Enter the GitHub repository URL you want to deploy.
    - Optionally, choose an HTML/HTM file to serve as the index page.
 
-5. If all steps are successful, the script will display a success message. If not, it will indicate that the deployment failed.
+4. If all steps are successful, the script will display a success message. If not, it will indicate that the deployment failed.
 
-**Note**: Ensure that you have the necessary permissions and access to run this script, and customize it as needed, such as replacing `<YOUR_REGION_ID>` and `<YOUR_SECURITY_GROUP_ID>` with your specific values for security group configuration.
 
 ## Requirements
 
