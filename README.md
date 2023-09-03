@@ -12,7 +12,7 @@ This Bash script is designed to automate the deployment of a website using the A
 
 5. **Display Public IP Address**: It retrieves and displays the public IP address of the server using the `curl` command.
 
-6. **Security Group Configuration (Optional)**: If all previous steps are successful, it provides an optional step for configuring security group rules to allow HTTP (port 80) and HTTPS (port 443) traffic.
+
 
 ## How to Use
 
